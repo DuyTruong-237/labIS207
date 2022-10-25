@@ -1,0 +1,142 @@
+body{
+    margin: 0 200px;
+}
+#mainTitle{
+   
+    height: 200px;
+    width: 300px;
+    margin-left: 39%;
+    margin-right: 45%;
+  
+    justify-content: center;
+   
+}
+
+#mainTitle #title{
+    font-size: 100px;
+    color: rgb(20, 145, 145);
+}
+#mainTitle #notetitle{
+    color: rgb(124, 122, 122);
+    font-size: 50px;
+    
+}
+#headInfor{
+    width: 100%;
+    margin-top:20px;
+    display:inline-flex;
+}
+#headInfor .mainInfor{
+    width: 36%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#headInfor .mainTitle{
+    color: rgb(20, 145, 145);
+    font-size: 30px;
+}
+#headInfor #imgAvatar{
+    width: 28%;
+    
+}
+#headInfor .mainInfor{
+    
+    font-size: 20px;
+}
+#experience {
+      
+    background-color: rgb(241, 227, 207);
+    margin: 20px 0 ;
+}
+.titleMain{
+    font-size: 60px;
+    margin-left: 39%;
+    margin-right: 45%;
+    padding-top: 50px;
+    margin-bottom: 60px;
+    color: rgb(20, 145, 145);
+}
+#experience .partInfor{
+    margin: 10px 20px;
+    
+}
+ .mainTitle{
+    color: rgb(20, 145, 145);
+    font-size: 30px;
+    margin: 20px 0;
+    
+
+}
+#experience .infor{
+    width: 100%;
+    display: inline-flex;
+}
+#experience .infor1{
+    width: 30%;
+}
+
+#experience .infor2{
+    width: 70%;
+    font-size: 17px;
+}
+#experience .ifLocate{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#experience .ifDate{
+    font-size: 17px;
+}
+#experience .ifWork{
+    font-weight: bold;
+}
+
+#abilities .itemSkill{
+    display: flex;
+    width: 100%;
+   
+    padding: 20px 0;
+   
+}
+#abilities .pont{
+    display: flex;
+    
+    width: 50%;
+}
+#abilities .partInfo{
+    display: flex;
+}
+#abilities .partSkill{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+#abilities .nameSkill{
+    width: 50%;
+}
+#abilities .itemSkill:hover{
+    background-color: rgb(170, 170, 175);
+}
+#abilities .pont div{
+    margin-left: 5px;
+    
+}
+#gitLink{
+    margin-left: 43%;
+    margin-right: 43%;
+    margin-bottom: 50px;
+}
+#gitLink div{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgb(90, 89, 89);
+}
+#gitLink button{
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-left: 10px;
+    background-color: rgb(20, 145, 145); 
+    color: #fff;
+    border-radius: 5px;
+    border-style: none;
+}
