@@ -1,0 +1,31 @@
+body {
+  background: #2A3249;
+  font-family: 'Roboto Slab', serif;
+  font-size: 5.2rem;
+  padding: 1.5rem 5%; 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.title-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.title-container > img{
+  width: 5rem;
+  height: 5rem;
+  margin: 0 1.2rem;
+}
+.title-container > span{
+  color: #ccc;
+  text-shadow: #D80662 0.2rem 0 0.2rem;
+}
