@@ -7,7 +7,7 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
-mongoose.connect('mongodb+srv://truong123:123456Tr#@cluster0.lpy4hxj.mongodb.net/card?retryWrites=true&w=majority',()=>{
+mongoose.connect('mongodb+srv://truong123:123456Tr#@cluster0.lpy4hxj.mongodb.net/ex2lab4?retryWrites=true&w=majority',()=>{
     console.log("DB connected");
 })
 
