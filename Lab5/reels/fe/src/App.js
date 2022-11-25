@@ -8,12 +8,8 @@ import Axios from 'axios'
 function App() {
   const [videos, setVideos]=useState([])
   useEffect(()=>{
-    async function fetchData(){
-      const res =await axios.get("/v2/get")
-      setVideos(res.data)
-      return res
-    }
-    fetchData()
+    Axios.get('http://localhost:9000/v2/get').then((response)=>setVideos(response.data))
+    
   },[])
   return (
    <div className='app'>

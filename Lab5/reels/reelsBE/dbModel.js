@@ -7,4 +7,6 @@ const shortVideoSchema=mongoose.Schema({
     likes:String,
     messages:String
 })
-module.exports=mongoose.model('shortVideos', shortVideoSchema)
+const dbModel=mongoose.model('dbModel', shortVideoSchema)
+
+module.exports = dbModel;
