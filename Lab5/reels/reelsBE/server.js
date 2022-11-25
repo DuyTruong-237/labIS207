@@ -4,7 +4,7 @@ const Cors = require ('cors')
 const Videos = require('./dbModel')
 const app = express()
 const port =process.env.PORT ||9000
-const connection_url='mongodb+srv://truong123:123456tr@cluster0.9wqb6hv.mongodb.net/Video?retryWrites=true&w=majority'
+const connection_url='mongodb+srv://truong123:123456tr@cluster0.9wqb6hv.mongodb.net/reels?retryWrites=true&w=majority'
 
 app.use(express.json())
 app.use(Cors())

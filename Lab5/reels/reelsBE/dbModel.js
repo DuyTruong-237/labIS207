@@ -5,6 +5,7 @@ const shortVideoSchema=mongoose.Schema({
     description:String,
     song:String,
     likes:String,
+    shares:String,
     messages:String
 })
 const dbModel=mongoose.model('dbModel', shortVideoSchema)
